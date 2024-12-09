@@ -1,0 +1,80 @@
+/* General styling for all screen sizes */
+.container-fluid {
+  background-color: #0a0a0a;
+}
+
+.custom-navbar {
+  box-shadow: none; /* No shadow */
+  background-color: #0a0a0a;
+  height: 60px;
+}
+
+.custom-logo {
+  max-width: 100%; /* Ensure logo is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav-link {
+  color: #ffffff !important; /* Ensure nav link text is white */
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Change hover color for links */
+}
+
+/* Navbar button (hamburger) */
+.navbar-toggler {
+  border-color: transparent; /* Remove button border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White hamburger icon */
+}
+
+/* Adjusting navbar for medium screens (tablets and below) */
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    height: auto; /* Let height adjust for content */
+  }
+
+  .navbar-brand img {
+    width: 200px; /* Smaller logo on mobile */
+  }
+
+  .navbar-collapse {
+    background-color: #0a0a0a; /* Ensure collapse area has same background color */
+    padding: 10px; /* Add padding to collapsed menu */
+  }
+
+  .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center; /* Center the nav links in the collapsed menu */
+  }
+}
+
+/* Adjusting navbar for small screens (mobile phones) */
+@media (max-width: 576px) {
+  .custom-navbar {
+    padding: 10px; /* Smaller padding for mobile */
+  }
+
+  .navbar-brand img {
+    width: 150px; /* Even smaller logo for very small screens */
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+
+  .navbar-collapse {
+    padding: 5px; /* Smaller padding for collapsed mobile view */
+  }
+
+  .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}

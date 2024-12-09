@@ -1,0 +1,79 @@
+/* TakeQuiz.css */
+
+.container4 {
+    background-color: #ffffff; /* White background for the quiz container */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 70px; /* Padding around the content */
+    
+}   
+
+h2 {
+    color: #007bff; /* Bootstrap primary color for heading */
+    font-weight: 700; /* Bold font weight for heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+h4 {
+    color: #333; /* Dark color for question text */
+}
+
+.alert {
+    margin-bottom: 20px; /* Spacing below the alert */
+}
+
+.form-check-input:checked {
+    background-color: #007bff; /* Primary color for selected radio buttons */
+    border-color: #007bff; /* Primary border color */
+}
+
+.fullscreen-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 215, 153); /* Light background with some transparency */
+    z-index: 1000; /* High z-index to appear above other elements */
+    text-align: center;
+}
+
+.btn {
+    font-weight: 600; /* Bold font weight for buttons */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Primary button border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    border-color: #6c757d; /* Secondary button border */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .container4 {
+        padding: 15px; /* Less padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller heading for mobile */
+    }
+
+    h4 {
+        font-size: 1.2rem; /* Smaller question text for mobile */
+    }
+}

@@ -1,0 +1,83 @@
+.navbar{
+    border-radius: 0;
+}
+.home-page {
+    background-image: url('https://www.invoice-machine.com/wp-content/uploads/2017/06/invoice-machine-all-devices.png'); /* Background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Increased padding for better spacing */
+    color: #343a40; /* Dark text color for readability */
+    
+}
+.home-page img {
+    border-radius: 0; /* Ensure square corners for image */
+}
+
+.home-page h1 {
+    color: white;
+    font-size: 2.5rem; /* Main heading size */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.home-page p {
+    color: wheat;
+    font-size: 1.2rem; /* Normal paragraph text size */
+    text-align: center; /* Center the paragraph */
+    margin-bottom: 30px; /* Space below paragraph */
+}
+
+.home-actions {
+    margin-top: 20px;
+    display: flex; /* Flexbox for buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+}
+
+/* Button styles */
+.btn {
+    
+    width: 90%; /* Full width buttons for larger screens */
+    padding: 10px; /* Padding for better touch targets */
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+#btn1{
+    background-color: rgb(55, 173, 55);
+    width: 90px;
+}
+#btn2{
+    background-color: rgb(240, 191, 15);
+    width: 90px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .home-page {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+
+    .home-page h1 {
+        font-size: 1.8rem; /* Decrease font size on smaller screens */
+    }
+
+    .home-page p {
+        font-size: 1rem; /* Decrease font size on smaller screens */
+    }
+
+    .home-actions {
+        width: 100%; /* Full width for home actions */
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width on smaller screens */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+}
+
+@media (min-width: 769px) {
+    .btn {
+        width: auto; /* Auto width for larger screens */
+        margin: 0 10px; /* Add horizontal spacing between buttons */
+    }
+}

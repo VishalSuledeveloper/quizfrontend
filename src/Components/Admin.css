@@ -1,0 +1,140 @@
+
+
+.admin-panel {
+    
+    width: 80%; 
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    height: auto;   
+    
+}
+
+.admin-form {
+    width: 1200px; 
+    max-width: 100%; 
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    height: auto;
+ 
+    
+}
+
+.question-section {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    background-color: rgb(229, 228, 228);
+    border-radius: 10px;
+}
+.btn {
+    transition: background-color 0.2s ease-in-out;
+    width: auto; 
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-info {
+    width: 100px;
+    background-color: #138496;
+
+}
+
+.btn-danger {
+    width: 100px;
+    align-items: end;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    
+}
+
+
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #343a40;
+}
+
+
+
+@media (max-width: 768px) {
+    .admin-panel {
+        width: 90%; 
+        padding: 15px;
+    }
+
+    .admin-form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .question-section {
+        padding: 15px;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .btn-danger, .btn-info, .btn-success {
+        width: 100%; 
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .admin-panel {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .admin-form {
+        padding: 15px;
+    }
+
+    .question-section {
+        padding: 10px;
+    }
+
+    h2, h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        width: 100%; 
+    }
+
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+}

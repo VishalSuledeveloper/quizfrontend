@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.container1 {
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2rem; /* Padding inside the form */
+    width: 90%; /* Full width on small screens */
+    max-width: 400px; /* Maximum width */
+}
+
+@media (max-width: 576px) {
+    .container1 {
+        width: 90%; /* Take 90% of the viewport width on small screens */
+    }
+}
+
+.form-label {
+    font-weight: bold; /* Make the labels bold */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

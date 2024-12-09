@@ -1,0 +1,68 @@
+/* Login.css */
+
+.body {
+    background-image: url('https://www.invoice-machine.com/wp-content/uploads/2017/06/invoice-machine-all-devices.png'); /* Background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the whole page */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .container2 {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px; /* Spacing around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Take full width in mobile */
+    max-width: 400px; /* Limit width on larger screens */
+  }
+  
+  h2 {
+    color: #343a40; /* Darker color for the heading */
+    font-family: 'Arial', sans-serif; /* Font family */
+  }
+  
+  .form-label {
+    color: #495057; /* Dark gray color for labels */
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px; /* Padding inside input fields */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding for button */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .alert {
+    margin-top: 20px; /* Space above alert messages */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 576px) {
+    .container2 {
+      padding: 20px; /* Less padding on small screens */
+    }
+  }
+  
